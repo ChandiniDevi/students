@@ -1,0 +1,71 @@
+
+
+let students = [
+  {
+    name: "Leo Messi",
+    dateOfBirth: "31-12-1995",
+    biologyMarks: 95,
+    chemistryMarks: 91,
+  },
+  {
+    name: "Cristiano Ronaldo",
+    dateOfBirth: "31-05-1992",
+    biologyMarks: 90,
+    chemistryMarks: 81,
+  },
+  {
+    name: "Virat Kohli",
+    dateOfBirth: "31-12-1995",
+    biologyMarks: 95,
+    chemistryMarks: 96,
+  },
+  {
+    name: "Rohit Sharma",
+    dateOfBirth: "31-12-1995",
+    biologyMarks: 85,
+    chemistryMarks: 86,
+  },
+  {
+    name: "Viswanathan Anand",
+    dateOfBirth: "12-12-1994",
+    biologyMarks: 99,
+    chemistryMarks: 10,
+  },
+];
+
+// ans = [virat, leo, cristiano, rohit, viswanath anand]
+
+let testCase2 = [
+  {
+    name: "Leo Messi",
+    dob: "31-12-1995",
+    biology: 100,
+    chemistry: 80,
+  },
+  {
+    name: "Cristiano Ronaldo",
+    dob: "31-05-1992",
+    biology: 80,
+    chemistry: 100,
+  },
+  {
+    name: "Virat Kohli",
+    dob: "31-12-1995",
+    biology: 30,
+    chemistry: 40,
+  },
+  {
+    name: "Rohit Sharma",
+    dob: "31-12-1995",
+    biology: 40,
+    chemistry: 30,
+  },
+  {
+    name: "Viswanathan Anand",
+    dob: "12-12-1994",
+    biology: 99,
+    chemistry: 10,
+  },
+];
+
+// ans = [leo, cristiano, viswanath, rohit, virat]
